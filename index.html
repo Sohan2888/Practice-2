@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jon Doe Font end web developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="header-area">
+    <div class="container">
+        <div class="header-container">
+            <div class="logo">
+            <a href="index.html">
+            <h1>John Doe</h1>
+            </a>
+        </div>
+        <div class="menu-icon show-menu" onclick="menuFunction()">
+            <div class="icon">
+            <img src="images/icon.png" alt="">
+        </div>
+        </div>
+        <nav class="main-manu " id="main-manu">
+            <a href="index.html">Home</a>
+            <a href="#about-area">About</a>
+            <a href="#service-area">Services</a>
+            <a href="#contact-area">Contact</a>
+        </nav>
+        </div>
+    </div>
+   </div>
+   <div class="main-area">
+    <section class="hero-area">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>I'm John Doe</h2>
+                    <p>Front end web development expart</p>
+                    <a class="theme-button" href="">Contact Me</a>
+                </div>
+                <div class="hero-image">
+                    <img src="images/avatar.png" alt="">
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <section class="about-area" id="about-area">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="images/about.png" alt="">
+                </div>
+                <div class="about-text">
+                    <h2>More about me</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                        A dolore in obcaecati dolorem sapiente ut autem itaque culpa expedita minima aspernatur,
+                        natus praesentium iure dicta laborum nihil voluptas impedit sint.</p>
+                    <a class="theme-button" href="#">Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="service-area" id="service-area">
+        <div class="container">
+            <div class="service-heading">
+                <h3>SERVICES</h3>
+                <h2>What I Do</h2>
+            </div>
+            <div class="service-content">
+            <div class="single-secvice">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Aliquam quia architecto soluta mollitia libero illo recusandae modi iste, 
+                earum doloremque, Ducimus!</p>
+                <a href="#" class="theme-button-small">Learn More</a>
+            </div>
+            <div class="single-secvice">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Aliquam quia architecto soluta mollitia libero illo recusandae modi iste, 
+                earum doloremque, Ducimus!</p>
+                <a href="#" class="theme-button-small">Learn More</a>
+            </div>
+            <div class="single-secvice">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Aliquam quia architecto soluta mollitia libero illo recusandae modi iste, 
+                earum doloremque, Ducimus!</p>
+                <a href="#" class="theme-button-small">Learn More</a>
+            </div>
+            <div class="single-secvice">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Aliquam quia architecto soluta mollitia libero illo recusandae modi iste, 
+                earum doloremque, Ducimus!</p>
+                <a href="#" class="theme-button-small">Learn More</a>
+            </div>
+            <div class="single-secvice">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Aliquam quia architecto soluta mollitia libero illo recusandae modi iste, 
+                earum doloremque, Ducimus!</p>
+                <a href="#" class="theme-button-small">Learn More</a>
+            </div>
+            <div class="single-secvice">
+                <h3>Web Design</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+                Aliquam quia architecto soluta mollitia libero illo recusandae modi iste, 
+                earum doloremque, Ducimus!</p>
+                <a href="#" class="theme-button-small">Learn More</a>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section class="contact-area" id="contact-area">
+        <div class="container">
+            <div class="service-heading">
+                <h3>Contact</h3>
+                <h2>Feel free to contact me</h2>
+            </div>
+        <Form>
+            <input type="text" placeholder="First Name" id="First-name">
+            <input type="text" placeholder="Last Name" id="Last-name">
+            <input type="email" placeholder="Email Address" id="email-address">
+            <input type="number" placeholder="Phone Number" id="phone-number">
+            <textarea id="message" rows="5" placeholder="Message"></textarea>
+            <input type="submit" value="Send message" id="send-message">
+        </Form>
+        </div>
+    </section>
+    </div>
+   <div class="footer-area">&copy; John Doe, All Right Reserved, 2022;</div>
+   <script>
+    function menuFunction(){
+        var menu = document.getElementById("main-manu")
+        menu.classList.toggle("show-menu");
+    }
+   </script>
+</body>
+</html>
